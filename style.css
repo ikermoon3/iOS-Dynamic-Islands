@@ -1,0 +1,59 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 6em;
+}
+
+h2,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 50px;
+}
+
+.Dynamic-Island-Main {
+    width: 100px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+    border: 1px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+.Dynamic-Island-Main:hover{
+    width: 150px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+    border: 1px black solid;
+    transition: 0.3s;
+}
+
+.Dynamic-Island-Main:active{
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: black;
+    border: 1px black solid;
+    transition: 0.5s;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+.disclaimer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.disclaimer:hover,.disclaimer:active{
+    color: red;
+    transition: 0.5s;
+}
